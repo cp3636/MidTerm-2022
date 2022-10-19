@@ -1,0 +1,552 @@
+
+body {
+    background-color: rgb(255, 244, 223);
+  }
+  p:hover{
+  
+    background-color:rgb(251, 155, 224) ;
+  
+  }
+  
+  .subhead{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 50px;
+    color:rgb(47, 147, 175);
+    font-size: 200%;
+    
+    
+  }
+  .aboutpara{
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-left: 50px;
+    text-align: center;
+    border: 1px solid white;
+    border:center;
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+    width: 500px;
+    height: 230px;
+    margin-top:40px ;
+  }
+  
+  .process{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left:50px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 200%;
+    
+  
+  
+  }
+  div.One{
+    font-family: 'Limelight', cursive;
+    padding-left:70px;
+    padding-top: 40px;
+    font-size: 600%;
+    color:rgb(47, 147, 175);
+    text-align: center;
+  }
+  .Onepara{
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-left:70px;
+    padding-top: 40px;
+    border: 1px solid white;
+    border: center;
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+    width: 500px;
+    height: 125px;
+    margin-top:40px ;
+    text-align: center;
+     
+  }
+  .Two{
+    font-family: 'Limelight', cursive;
+    padding-left:70px;
+    padding-top: 40px;
+    color:rgb(47, 147, 175);
+    font-size: 600%;
+    text-align: center;
+    
+  }
+  .Twopara{
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-left: 50px;
+    text-align: center ;
+    border: 1px solid white;
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+    width: 500px;
+    height: 150px;
+  }
+  .Three{
+    font-family: 'Limelight', cursive;
+    padding-left:70px;
+    padding-top: 40px;
+    color:rgb(47, 147, 175);
+    font-size: 600%;
+    text-align: center;
+  }
+  .Threepara{
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-left: 50px;
+    text-align: center ;
+    border: 1px solid white;
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+    width: 500px;
+    height: 150px;
+  }
+  .slideTitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 50px;
+    text-align: center;
+    color:rgb(47, 147, 175);
+    padding-top: 50px;
+    font-size: 200%;
+  }
+  .prev, .next {
+      background-color: rgba(255, 255, 255, .25);
+      cursor: pointer;
+      height: 30px;
+      padding: 10px;
+    display: flex;
+      justify-content: space-between;
+      position: absolute;
+      width: 40px;
+    border-color: rgba(0, 0, 0, 0.8)
+  
+  }
+  
+  .next {
+    right: 0;
+   margin-right: 55px;
+   
+  }
+  .prev{
+    margin-left: 55px;
+  }
+   .next:hover{
+  background-color: rgb(251, 155, 224);
+  color: white; 
+  border-color: white;
+  
+  }
+  .prev:hover{
+    background-color: rgb(251, 155, 224);
+  color: white; 
+  border-color: white;
+  }
+  .slides {
+    display: inline;
+  }
+  
+  .buttons {
+    position: relative;
+    top: -70px;
+  
+  }
+  
+  
+  
+  /* .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  
+  }
+  
+  @keyframes fade {QQQ
+    from {opacity: .4} 
+    to {opacity: .8}
+  } */
+  
+  .mySlides{
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  
+  @media screen and (min-width: 700px) { 
+  
+  /* #grad1 {
+      height: 500px;
+      background-color: rgb(47, 147, 175);
+      background-image: linear-gradient(to bottom right, rgb(47, 147, 175), rgb(255, 244, 223));
+      padding: 50px;
+    }
+    .title{
+      font-family: 'Source Sans Pro', sans-serif;
+      color: white;
+      text-align: left
+    } */
+    .subhead{
+      font-family: 'Source Sans Pro', sans-serif;
+      padding-left: 50px;
+      text-align: left;
+      color:rgb(47, 147, 175);
+      padding-top: 50px;
+      font-size: 200%;
+    }
+    .aboutpara{
+      font-family: 'Hind Siliguri', sans-serif;
+      padding-left: 50px;
+      text-align: left ;
+      border: 1px solid black;
+      margin-left: 50px;
+      padding: 15px;
+      width: 600px;
+      height: 150px;
+    }
+    
+    .process{
+      font-family: 'Source Sans Pro', sans-serif;
+      padding-left:50px;
+      padding-top: 60px;
+      text-align: left;
+      font-size: 200%;
+    
+    
+    }
+    div.One{
+      font-family: 'Limelight', cursive;
+      padding-left:70px;
+      padding-top: 40px;
+      font-size: 600%;
+      color:rgb(47, 147, 175);
+      text-align: left;
+    }
+    .Onepara{
+      font-family: 'Hind Siliguri', sans-serif;
+      padding-left:70px;
+      padding-top: 40px;
+      border: 1px solid black;
+      margin-left: 50px;
+      padding: 15px;
+      width: 600px;
+      height: 100px;
+      margin-top:40px ;
+      text-align: left;
+       
+    }
+    .Two{
+      font-family: 'Limelight', cursive;
+      padding-left:70px;
+      padding-top: 40px;
+      color:rgb(47, 147, 175);
+      font-size: 600%;
+      text-align: left;
+      
+    }
+    .Twopara{
+      font-family: 'Hind Siliguri', sans-serif;
+      padding-left: 50px;
+      text-align: left ;
+      border: 1px solid black;
+      margin-left: 50px;
+      padding: 15px;
+      width: 600px;
+      height: 125px;
+    }
+    .Three{
+      font-family: 'Limelight', cursive;
+      padding-left:70px;
+      padding-top: 40px;
+      color:rgb(47, 147, 175);
+      font-size: 600%;
+      text-align: left;
+    }
+    .Threepara{
+      font-family: 'Hind Siliguri', sans-serif;
+      padding-left: 50px;
+      text-align: left ;
+      border: 1px solid black;
+      margin-left: 50px;
+      padding: 15px;
+      width: 600px;
+      height: 96px;
+    }
+    .slideTitle{
+      font-family: 'Source Sans Pro', sans-serif;
+      padding-left: 50px;
+      text-align: left;
+      color:rgb(47, 147, 175);
+      padding-top: 50px;
+      font-size: 200%;
+    }
+    .prev, .next {
+      background-color: rgba(255, 255, 255, .25);
+      cursor: pointer;
+      height: 30px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      width: 40px;
+      border-color: rgba(0, 0, 0, 0.8)
+    
+    }
+    
+    .next {
+      right: 0;
+      margin-right: 430px;
+     
+    }
+    .prev{
+      margin-left: 50px;
+     
+    }
+     .next:hover{
+    background-color: rgb(251, 155, 224);
+    color: white; 
+    border-color: white;
+    
+    }
+    .prev:hover{
+      background-color: rgb(251, 155, 224);
+    color: white; 
+    border-color: white;
+    }
+  
+  .slides {
+    display: inline;
+  }
+  
+  .buttons {
+    position: relative;
+    top: -190px;
+  
+  }
+    
+    
+  /*   
+    .fade {
+      animation-name: fade;
+      animation-duration: 1s;
+    
+    }
+    
+    @keyframes fade {QQQ
+      from {opacity: .4} 
+      to {opacity: .8}
+    } */
+    .mySlides{
+      padding-top: 40px;
+      margin-left: 50px;
+      width: 50%;
+    }
+    
+    
+    
+  
+  
+  
+  
+  
+  }
+  @media screen and (min-width: 1400px) { 
+  
+    .subhead{
+      font-family: 'Source Sans Pro', sans-serif;
+      padding-left: 50px;
+      text-align: center;
+      color:rgb(47, 147, 175);
+      padding-top: 50px;
+      font-size: 200%;
+    }
+    .aboutpara{
+      font-family: 'Hind Siliguri', sans-serif;
+      padding-left: 50px;
+      text-align: center;
+      border: 1px solid black;
+      margin: auto;
+      width: 50%;
+      padding: 15px;
+      width: 720px;
+      height: 150px;
+      margin-top:40px ;
+    }
+    .process{
+      font-family: 'Source Sans Pro', sans-serif;
+      padding-left:50px;
+      padding-top: 60px;
+      text-align: center;
+      font-size: 200%;
+    
+    
+    }
+    div.One{
+      font-family: 'Limelight', cursive;
+      padding-left:70px;
+      padding-top: 40px;
+      font-size: 600%;
+      color:rgb(47, 147, 175);
+      text-align: center;
+    }
+    .Onepara{
+      font-family: 'Hind Siliguri', sans-serif;
+      padding-left:70px;
+      padding-top: 40px;
+      border: 1px solid black;
+      border: center;
+      margin: auto;
+      width: 50%;
+      padding: 15px;
+      width: 720px;
+      height: 100px;
+      margin-top:40px ;
+      text-align: center;
+       
+    }
+    .Two{
+      font-family: 'Limelight', cursive;
+      padding-left:70px;
+      padding-top: 40px;
+      color:rgb(47, 147, 175);
+      font-size: 600%;
+      text-align: center;
+      
+    }
+    .Twopara{
+      font-family: 'Hind Siliguri', sans-serif;
+      padding-left: 50px;
+      text-align: center ;
+      border: 1px solid black;
+      margin: auto;
+      width: 50%;
+      padding: 15px;
+      width: 720px;
+      height: 100px;
+    }
+    .Three{
+    font-family: 'Limelight', cursive;
+    padding-left:70px;
+    padding-top: 40px;
+    color:rgb(47, 147, 175);
+    font-size: 600%;
+    text-align: center;
+  }
+  .Threepara{
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-left: 50px;
+    text-align: center ;
+    border: 1px solid black;
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+    width: 720px;
+    height: 80px;
+  }
+  .slideTitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 50px;
+    text-align: center;
+    color:rgb(47, 147, 175);
+    margin-top: 70px;
+    font-size: 200%;
+  }
+  
+  * {box-sizing: 600px}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+  
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .mySlides{
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  
+  .prev, .next {
+      background-color: rgba(255, 255, 255, .25);
+      cursor: pointer;
+      height: 30px;
+      padding: 10px;
+    display: flex;
+      justify-content: space-between;
+      position: absolute;
+      width: 40px;
+    border-color: rgba(0, 0, 0, 0.8)
+  
+  }
+  
+  .next {
+    right: 0;
+   margin-right: 350px;
+   position: absolute;
+   
+   
+  }
+  .prev{
+    margin-left: 350px;
+  }
+  
+   .next:hover{
+  background-color: rgb(251, 155, 224);
+  color: white; 
+  border-color: white;
+  
+  }
+  .prev:hover{
+    background-color: rgb(251, 155, 224);
+  color: white; 
+  border-color: white;
+  }
+  
+  .slides {
+    display: inline;
+  }
+  
+  .buttons {
+    position: relative;
+    top: -300px;
+  
+  }
+  .me{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 40%;
+    
+  }
+  
+  
+  /* 
+  .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  
+  }
+  
+  @keyframes fade {QQQ
+    from {opacity: .4} 
+    to {opacity: .8}
+  } */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
