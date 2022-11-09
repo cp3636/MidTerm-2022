@@ -75,12 +75,15 @@ html, body {
     justify-content: left;
     margin-right: 1300px;
     padding-top: 10px;
+    padding-left: 20px;
   }
 .cool:hover {
   transform: scale(1.1) rotate(4deg);
 }
 .sparkle{
   justify-content: left;
+  padding-top: 10px;
+  padding-left: 30px;
 
 }
 .row::after {
