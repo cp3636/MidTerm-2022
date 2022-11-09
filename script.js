@@ -71,14 +71,14 @@ function setup() {
   button = createImg(
     "images/camera.png"
   );
-  button.position(600, 790);
+  button.position(560, 825);
   button.size(50, 50);
   button.mousePressed(takePhoto);
   buttonclown = createImg(
     "https://cdn.glitch.global/0aaba933-6b39-4595-bd6a-263b91e4b137/clown_nose.png?v=1646677023601"
   );
 
-  buttonclown.position(440, 780);
+  buttonclown.position(390, 810);
   buttonclown.size(80, 80);
   buttonclown.mousePressed(function () {
     clownnosestate = !clownnosestate;
@@ -87,7 +87,7 @@ function setup() {
   buttonsunglasses = createImg(
     "https://cdn.glitch.global/0aaba933-6b39-4595-bd6a-263b91e4b137/sunglasses.png?v=1646677057956"
   );
-  buttonsunglasses.position(750, 790);
+  buttonsunglasses.position(700, 820);
   buttonsunglasses.size(80, 50);
   buttonsunglasses.mousePressed(function () {
     sunglassesstate = !sunglassesstate;
@@ -95,15 +95,15 @@ function setup() {
   buttonFXPorklife = createImg(
     "images/questionmark.png"
   );
-  buttonFXPorklife.position(900, 795);
+  buttonFXPorklife.position(860, 820);
   buttonFXPorklife.size(42, 40);
   buttonFXPorklife.mousePressed(myFilter);
 }
 function windowResized() {
-  button.position(8*windowWidth/15, 795);
-  buttonclown.position(windowWidth/3, 775);
-  buttonFXPorklife.position(9* windowWidth/15,  800);
-  buttonsunglasses.position(6.2* windowWidth/15, 790)
+  button.position(8*windowWidth/15, 825);
+  buttonclown.position(windowWidth/3, 810);
+  buttonFXPorklife.position(9* windowWidth/15,  825);
+  buttonsunglasses.position(6.2* windowWidth/15, 825)
 
 }
 
