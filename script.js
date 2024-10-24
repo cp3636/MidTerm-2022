@@ -79,6 +79,7 @@ function setup() {
   );
 
   buttonclown.position(440, 780);
+  
   buttonclown.size(80, 80);
   buttonclown.mousePressed(function () {
     clownnosestate = !clownnosestate;
