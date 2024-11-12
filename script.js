@@ -170,6 +170,8 @@ const s = (p) => {
   };
 
   p.draw = function () {
+    p.clear()
+
     let w = vidWidth;
     let h = vidHeight;
     let col = width / w;
