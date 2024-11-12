@@ -61,7 +61,7 @@ function setup() {
   // p5LiveMedia
   console.log('hi');
   console.log(ml5.version);
-  let p5l = new p5LiveMedia(this, "CANVAS", stream, "clarissa");
+  let p5l = new p5LiveMedia(this, "CANVAS", myCanvas, "clarissa");
   p5l.on("stream", gotOtherStream);
   p5l.on("disconnect", disconnectOtherStream);
 
@@ -111,6 +111,10 @@ function windowResized() {
   buttonFXPorklife.position(9* windowWidth/15,  800);
   buttonsunglasses.position(6.2* windowWidth/15, 790)
 
+}
+
+function mousePressed(){
+  console.log(allVideos)
 }
 
 
