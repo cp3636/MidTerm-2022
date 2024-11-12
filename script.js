@@ -278,7 +278,7 @@ function gotOtherStream(stream, id) {
 }
 
 function disconnectOtherStream(id) {
-  allVideos = allVideos.filter((vid) => vid.id !== id);
+  allVideos = allVideos.filter((vid) => vid.elt.id != id);
 }
 
 // let video;
