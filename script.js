@@ -170,6 +170,8 @@ const s = (p) => {
   };
 
   p.draw = function () {
+
+  //clearing canvas each time someone leaves stream (leftover pixels), then redrawing with with existing pixels
     p.clear()
 
     let w = vidWidth;
