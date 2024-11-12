@@ -61,7 +61,7 @@ function setup() {
   // p5LiveMedia
   console.log('hi');
   console.log(ml5.version);
-  let p5l = new p5LiveMedia(this, "CANVAS", myCanvas, "clarissa");
+  let p5l = new p5LiveMedia(this, "CANVAS", stream, "clarissa");
   p5l.on("stream", gotOtherStream);
   p5l.on("disconnect", disconnectOtherStream);
 
